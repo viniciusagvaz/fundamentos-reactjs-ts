@@ -29,7 +29,7 @@ const posts: PostType[] = [
 		id: 2,
 		author: {
 			avatarUrl:
-				"https://media.licdn.com/dms/image/D4E35AQH96yg0hlYG-g/profile-framedphoto-shrink_400_400/0/1651235394486?e=1693501200&v=beta&t=L60cjv28FvAIQolOA3t4gAGkH-JZ2xvZj9NjWDKaWGQ",
+				"https://github.com/Navi138.png",
 			name: "Marcos Wunder",
 			role: "Técnico e Editor de Som",
 		},
