@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { Post, PostType } from "./components/Post";
 import { Sidebar } from "./components/Sidebar";
+import { Footer } from "./components/Footer";
 
 import styles from "./App.module.css";
 
@@ -57,8 +58,9 @@ export function App() {
 					{posts.map(post => {
 						return <Post post={post} />;
 					})}
+        <Footer/>
 				</main>
 			</div>
 		</div>
-	);
+  )
 }
