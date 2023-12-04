@@ -26,8 +26,26 @@ const posts: PostType[] = [
 		],
 		publishedAt: new Date("2023-08-24 13:43:34"),
 	},
-	{
+  {
 		id: 2,
+		author: {
+			avatarUrl:
+				"https://github.com/ingridsj.png",
+			name: "Ingrid Almeida",
+			role: "Full-stack Developer",
+		},
+		content: [
+			{ type: "paragraph", content: "Eai, pessoal!" },
+			{
+				type: "paragraph",
+				content: "Fiz um novo projeto! Um jogo da memória com as maiores princesas e vilãs da Disney :3",
+			},
+			{ type: "link", content: "https://github.com/ingridsj/disney-memory-game" },
+		],
+		publishedAt: new Date("2023-08-24 13:05:06"),
+	},
+	{
+		id: 3,
 		author: {
 			avatarUrl:
 				"https://github.com/Navi138.png",

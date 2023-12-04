@@ -13,7 +13,7 @@ export function Sidebar() {
 			<div className={styles.profile}>
 				<Avatar
 					hasBorder
-					src="https://media.licdn.com/dms/image/D4D03AQGCdfT1sEBxGA/profile-displayphoto-shrink_400_400/0/1687813480909?e=1698278400&v=beta&t=nisZwlVzwxAoXbV9k73QdvDGVd08Y-uKhBJ9GdH0HcA"
+					src="https://github.com/viniciusagvaz.png"
 				/>
 
 				<strong>Vinícius Vaz</strong>
