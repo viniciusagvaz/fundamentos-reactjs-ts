@@ -13,7 +13,7 @@ export function Sidebar() {
 			<div className={styles.profile}>
 				<Avatar
 					hasBorder
-					src="https://github.com/viniciusagvaz.png"
+					src=""
 				/>
 
 				<strong>Vinícius Vaz</strong>
