@@ -32,7 +32,7 @@ interface PostProps {
 }
 
 export function Post({ post }: PostProps) {
-	const [comments, setComments] = useState([]);
+	const [comments, setComments] = useState(['']);
 
 	const [newCommentText, setNewCommentText] = useState("");
 
