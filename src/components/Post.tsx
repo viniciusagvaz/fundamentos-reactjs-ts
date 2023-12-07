@@ -32,7 +32,7 @@ interface PostProps {
 }
 
 export function Post({ post }: PostProps) {
-	const [comments, setComments] = useState(['']);
+	const [comments, setComments] = useState(["Este é um comentário demonstrativo. Crie o seu na área de texto a cima. Você também pode tocar no ícone da lixeira para exluir o comentário que desejar :DD"]);
 
 	const [newCommentText, setNewCommentText] = useState("");
 
